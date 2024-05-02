@@ -6,6 +6,10 @@ from utils.githubApi import commit_to_gh
 
 bot = telebot.TeleBot(config.BOT_TOKEN)
 
+@bot.message_handler(commands=['start'])
+def handle_site_text(message):
+    bot.send_message(message.chat.id, 'Команда для изменения текст: /text2site ВАШ ТЕКСТ\n\nhttps://github.com/keeniGitHub/tg2html\nhttps://keeniGitHub.github.io/tg2html')
+    
 @bot.message_handler(commands=['text2site'])
 def handle_site_text(message):
     text = message.text[11:]
