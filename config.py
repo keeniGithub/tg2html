@@ -1,3 +1,3 @@
-BOT_TOKEN = '5651007476:AAEm0li78BLlGIPlATWdkjXMzgMAf0tX6fY'
-GH_TOKEN = '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'
+BOT_TOKEN = 'NoToken'
+GH_TOKEN = 'NoBoobs'
 REPOSITORY_NAME = 'tg2html'
