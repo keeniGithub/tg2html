@@ -1,0 +1,3 @@
+BOT_TOKEN = ''
+GH_TOKEN = ''
+REPOSITORY_NAME = 'tg2html'
